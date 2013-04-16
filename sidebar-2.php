@@ -25,7 +25,7 @@
 						</li>
 					</ul>
 				</aside>
-				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar ( Single Page )') ) : ?>
+				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar ( Page )') ) : ?>
 
 				<?php endif; ?>
 			</div>

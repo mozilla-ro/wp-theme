@@ -8,14 +8,14 @@ html .mceContentBody {
 }
 * {
 	color: inherit;
-	font: 100% 'Istok Web', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: inherit;
 	font-weight: inherit;
-	line-height: 1.625;
+	line-height: 175%;
 }
 body {
 	color: #484848;
-	font: 100% 'Droid Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Alignment */
@@ -38,85 +38,42 @@ body {
 /* =Content
 ----------------------------------------------- */
 
-a{
-color: #447bd6;
-text-decoration: none;
-}
-
-a:hover{
-text-decoration: underline;
+p{
+	font-size: 13px;
+	color: #484848;
+	margin-bottom: 10px;
+	line-height: 175%;
 }
 
 img{
-border-radius: 5px;
+	border-radius: 3px;
 }
 
-p{
-max-width: 660px;
-height: auto;
-font-size: 13px;
-color: #484848;
-margin: 10px 0 10px 0;
+em{
+	font-style: italic;
 }
 
-blockquote{
-float: left;
-width: 658px;
-height: auto;
-background: #fafafa;
-border: 1px dashed #e6e6e6;
-margin: 10px 0 10px 0;
-border-radius: 5px;
+strong{
+	font-weight: bold;
 }
 
-blockquote p{
-font-size: 14px;
-line-height: 167%;
-padding: 30px;
-color: #447bd6;
-background: url(images/quote.png) no-repeat;
-}
-
-h2{
-max-width: 660px;
-height: auto;
-font-size: 20px;
-margin: 10px 0 10px 0;
-}
-
-h2 a{
-max-width: 660px;
-height: auto;
-font-size: 20px;
-margin: 10px 0 10px 0;
-color: #447bd6;
-text-decoration: none;
+ul,
+ol{
+	margin-left: 30px;
+	font-size: 13px;
+	color: #484848;
 }
 
 ul{
-float: left;
-width: 630px;
-height: auto;
-margin: 10px 0 10px 0;
-padding: 0 0 0 30px;
-list-style: circle;
+	list-style-type: circle;
 }
 
 ol{
-float: left;
-width: 630px;
-height: auto;
-margin: 10px 0 10px 0;
-padding: 0 0 0 30px;
-list-style: decimal;
+	list-style-type: decimal;
 }
 
-ol li,ul li{
-font-size: 13px;
-margin: 0 0 10px 0;
-}
 
-ol li a,ul li a{
-color: #447bd6;
-text-decoration: none;
+a{
+	color: #447bc4;
+	text-decoration: none;
 }
